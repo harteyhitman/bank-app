@@ -21,7 +21,7 @@ const Testimonials = () => {
         </div>
       </div>
 
-      <div className='md:flex flex-row
+      <div className='md:flex flex-row hover:animate-pulse hover:bg-transparent
       '>
         {feedback.map((card) => (
           <div key={card.id}>
